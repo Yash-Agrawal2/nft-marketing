@@ -1,0 +1,24 @@
+# ---------- GLOBAL ----------
+node_modules
+.env*
+.DS_Store
+Thumbs.db
+
+# ---------- BACKEND ----------
+backend/cache
+backend/artifacts
+backend/typechain-types
+backend/coverage*
+backend/coverage.json
+
+# ---------- FRONTEND ----------
+frontend/.next
+frontend/out
+frontend/build
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/sdks
+!frontend/.yarn/versions
